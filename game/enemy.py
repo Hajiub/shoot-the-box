@@ -24,5 +24,5 @@ class Enemy(Character):
         if random.randint(0, 100) < 2:
             self.direction = Direction(random.randint(1, 4))
         
-        if random.randint(0, 200) < 1:
+        if random.randint(0, 200) < 5:
             self.shoot()

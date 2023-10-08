@@ -5,7 +5,7 @@ from .config import GameConfig
 class Background:
     def __init__(self):
         self.background = pg.Surface(GameConfig.SCREEN_SIZE)
-        self.background.fill((255, 255, 255))
+        self.background.fill(GameConfig.BACKGROUND_COLOR)
         self.rect = self.background.get_rect()
         self.box_size = GameConfig.BULLET_SIZE
         self.rows = GameConfig.SCREEN_WIDTH // self.box_size

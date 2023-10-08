@@ -11,6 +11,7 @@ class GameConfig:
     BULLET_SPEED = 10
     BULLET_DELAY = 350
     ENEM_NUM     = 4
+    BACKGROUND_COLOR = (255,255,255)
 
 
 class Direction(Enum):
