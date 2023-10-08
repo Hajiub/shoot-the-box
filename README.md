@@ -1,10 +1,10 @@
-# Shoot the Box
+# Tanks
 
 ![Game Screenshot](screenshot.png)
 
 ## Overview
 
-# Shoot the Box
+# Tanks or "Shot the box"
 
 "Shoot the Box" is a simple 2D shooting game created using the Pygame library in Python. In this game, you control a green box, representing your character, and your objective is to shoot the red boxes, which are the enemies.
 ## Features
